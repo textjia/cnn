@@ -2,7 +2,7 @@
 title: Beyoncé and Taylor Swift's Sweet Friendship Story!
 date: 2023-12-08
 ---
-### Beyoncé and Taylor Swift's Sweet Friendship Story! 🌈🍬 ###
+# Beyoncé and Taylor Swift's Sweet Friendship Story! # 🌈🍬
 
 Hey candy lovers! Did you know that Beyoncé and Taylor Swift are like two amazing candies that make the world sweeter? Let me tell you all about their fantastic friendship!
 

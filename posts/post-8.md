@@ -3,7 +3,7 @@ title: Candy Heroes Save Martin's Sweet House Adventure!
 date: 2023-12-08
 ---
 
-🍭🏠 # Candy Heroes Save Martin's Sweet House Adventure! # 🌈🍬
+# Candy Heroes Save Martin's Sweet House Adventure! # 🌈🍬
 
 Hey, little candy explorers! I have a story filled with brave heroes and a not-so-nice attempt to hurt a special place. But don't worry, our candy friends came to the rescue!
 

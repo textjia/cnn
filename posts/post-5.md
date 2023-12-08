@@ -4,7 +4,7 @@ date: 2023-12-08
 ---
 
 
-🍭🌟 # Sweet Talks About Orioles and a Magical Baseball Adventure! # 🌟🍭
+# Sweet Talks About Orioles and a Magical Baseball Adventure! # 🌟🍭
 
 Hey there, little candy enthusiasts! I have the most delightful story for you, straight from Candyland News!
 

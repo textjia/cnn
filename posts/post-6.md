@@ -2,7 +2,7 @@
 title: Sweet Adventures in a Faraway Place!
 date: 2023-12-08
 ---
-🍭🌈 # Sweet Adventures in a Faraway Place! # 🌟🍬
+# Sweet Adventures in a Faraway Place! # 🌟🍬
 
 Hey, little candy pals! I have a magical tale for you from Candyland News! So, there's this place far, far away called Iraq, and some not-so-nice things happened there. But don't worry, we're turning it into a sweet story!
 
