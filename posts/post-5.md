@@ -1,10 +1,10 @@
 ---
-title: Sweet Talks About Orioles and a Magical Baseball Adventure!
+title: Candyland News: Sweet Talks About Orioles and a Magical Baseball Adventure!
 date: 2023-12-08
 ---
 
 
-# Sweet Talks About Orioles and a Magical Baseball Adventure! # 🌟🍭
+# Candyland News: Sweet Talks About Orioles and a Magical Baseball Adventure! # 🌟🍭
 
 Hey there, little candy enthusiasts! I have the most delightful story for you, straight from Candyland News!
 
