@@ -16,4 +16,18 @@ permalink: 'page/{{ pagination.pageNumber }}/'
         {% endfor %}  
     </ul>
     </div>
+    <!-- Manual Pagination Navigation -->
+    <div class="pagination">
+        {% if pagination.previousPage %}
+            <a href="{{ '/' | url | url + (pagination.previousPage > 1 ? 'page/' + pagination.previousPage + '/' : '') }}">Previous</a>
+        {% endif %}
+
+        {% for page in pagination.pages %}
+            <a href="{{ '/' | url | url + (page > 1 ? 'page/' + page + '/' : '') }}" {% if page == pagination.pageNumber %}class="active"{% endif %}>{{ page }}</a>
+        {% endfor %}
+
+        {% if pagination.nextPage %}
+            <a href="{{ '/' | url | url + 'page/' + pagination.nextPage + '/' }}">Next</a>
+        {% endif %}
+    </div>
 </div>
