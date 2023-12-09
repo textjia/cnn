@@ -1,22 +1,5 @@
 ---
 layout: layout.html
-pagination:
-  data: collections.post
-  size: 5
-permalink: "page/{{ pagination.pageNumber }}/"
-eleventyComputed:
-  paginationHref: "/page/{{ pagination.pageNumber }}/"
----
-
----
-layout: layout.html
-paginate:
-  perPage: 5  # Number of items per page
-  data: collections.post  # Collection to paginate
-  alias: posts  # Variable name to use for each paginated page
-permalink: "page/{{ pagination.pageNumber }}/"
-eleventyComputed:
-   paginationHref: "/page/{{ pagination.pageNumber }}/"
 ---
 <div class="container">
     <div class="jumbotron">
