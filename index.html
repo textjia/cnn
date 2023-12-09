@@ -11,6 +11,12 @@ permalink: 'page/{{ pagination.pageNumber }}/'
         <h3>Candy News Network</h3>
     <!-- Bootstrap List Group -->
     <ul class="list-group">
+
+        {% for post in collections.post reversed %}
+            <li><a href="{{ post.url }}">{{ post.data.date | date: "%m/%d/%y"}} - {{ post.data.title }}</a></li>
+        {% endfor %}
+
+
         {% for post in posts reversed %}
             <li><a href="{{ post.url }}">{{ post.data.date | date: "%m/%d/%y"}} - {{ post.data.title }}</a></li>
         {% endfor %}  
