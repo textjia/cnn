@@ -3,43 +3,31 @@ layout: layout.html
 pagination:
   data: collections.post
   size: 5
-permalink: "page/{{ pagination.pageNumber }}/"
-eleventyComputed:
-  paginationHref: "/page/{{ pagination.pageNumber }}/"
+  alias: posts
 ---
-
 <div class="container">
-  <div class="jumbotron">
-    <h3>Candy News Network</h3>
-    <!-- Bootstrap List Group -->
-    <ul class="list-group">
-      {% for post in pagination.items %}
-        <li><a href="{{ post.url }}">{{ post.data.date | date: "%m/%d/%y"}} - {{ post.data.title }}</a></li>
-      {% endfor %}  
-    </ul>
-  </div>
-</div>
+    <div class="jumbotron">
+        <h3>Candy News Network</h3>
+        <!-- Bootstrap List Group -->
+        <ul class="list-group">
+            {% for post in posts %}
+                <li><a href="{{ post.url }}">{{ post.data.date | date: "%m/%d/%y"}} - {{ post.data.title }}</a></li>
+            {% endfor %}  
+        </ul>
+    </div>
 
-<nav class="pagination" role="navigation">
-  <ul>
-    {% if pagination.items.length > 1 %}
-      {% if pagination.href.previous %}
-        <li><a href="{{ pagination.href.first }}">First</a></li>
-        <li><a href="{{ pagination.href.previous }}">Previous</a></li>
-      {% endif %}
-
-      {% for page in pagination.pages %}
-        {% if page.url == pagination.href.origin + pagination.href.pathname %}
-          <li><span>{{ page.number }}</span></li>
-        {% else %}
-          <li><a href="{{ page.url }}">{{ page.number }}</a></li>
+    <!-- Manual Pagination Navigation -->
+    <div class="pagination">
+        {% if pagination.previousPage %}
+            <a href="{{ '/' | url | url + (pagination.previousPage > 1 ? 'page/' + pagination.previousPage + '/' : '') }}">Previous</a>
         {% endif %}
-      {% endfor %}
 
-      {% if pagination.href.next %}
-        <li><a href="{{ pagination.href.next }}">Next</a></li>
-        <li><a href="{{ pagination.href.last }}">Last</a></li>
-      {% endif %}
-    {% endif %}
-  </ul>
-</nav>
+        {% for page in pagination.pages %}
+            <a href="{{ '/' | url | url + (page > 1 ? 'page/' + page + '/' : '') }}" {% if page == pagination.pageNumber %}class="active"{% endif %}>{{ page }}</a>
+        {% endfor %}
+
+        {% if pagination.nextPage %}
+            <a href="{{ '/' | url | url + 'page/' + pagination.nextPage + '/' }}">Next</a>
+        {% endif %}
+    </div>
+</div>
