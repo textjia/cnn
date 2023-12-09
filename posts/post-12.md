@@ -1,5 +1,5 @@
 ---
-title: Candyland Election Adventure: Putin's Sweet Announcement!
+title: Candyland Election Adventure -  Putin's Sweet Announcement!
 date: 2023-12-08
 ---
 # Candyland Election Adventure: Putin's Sweet Announcement! #  🏰🚀🍭

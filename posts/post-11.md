@@ -1,5 +1,5 @@
 ---
-title: Sweet Candy Kingdom Discovery: Pompeii Adventure!
+title: Sweet Candy Kingdom Discovery -  Pompeii Adventure!
 date: 2023-12-08
 ---
 # Sweet Candy Kingdom Discovery: Pompeii Adventure! # 🌋✨🍭🏛️

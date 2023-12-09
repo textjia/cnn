@@ -1,5 +1,5 @@
 ---
-title: Candy Skies: Flying Adventures with KinectAir!
+title: Candy Skies -  Flying Adventures with KinectAir!
 date: 2023-12-08
 ---
 # Candy Skies: Flying Adventures with KinectAir! # ✨🚁🍭✈️

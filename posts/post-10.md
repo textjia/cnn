@@ -1,5 +1,5 @@
 ---
-title: Sweet Candy Kingdom News: OpenAI Adventure!
+title: Sweet Candy Kingdom News - OpenAI Adventure!
 date: 2023-12-08
 ---
 # Sweet Candy Kingdom News: OpenAI Adventure! # 🌈✨🍭🏰
