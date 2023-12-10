@@ -4,7 +4,7 @@ pagination:
   data: collections.post
   size: 5
   alias: posts
-permalink: 'page/{{ pagination.pageNumber }}/'
+  permalink: 'page/{{ posts.pagination.pageNumber }}/'
 ---
 <div class="container">
     <div class="jumbotron">
@@ -22,7 +22,7 @@ permalink: 'page/{{ pagination.pageNumber }}/'
  
 
     </div>
-    <nav>
+    
         {% if pagination.href.previous %}
         <a href="{{ pagination.href.previous }}">Previous Page</a>
     {% endif %}
@@ -31,10 +31,15 @@ permalink: 'page/{{ pagination.pageNumber }}/'
         <a href="{{ pagination.href.next }}">Next Page</a>
     {% endif %}
 
-    {% for page in pagination.pages %}
-    <a href="{{ page.href }}">{{ page.pageNumber }}</a>
-{% endfor %}
+    
 
+  
+
+    
+    <nav>
+        {% for page in posts.pagination.pages %}
+            <a href="{{ page.href }}">{{ page.pageNumber }}</a>
+        {% endfor %}
     </nav>
    
     
