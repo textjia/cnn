@@ -30,12 +30,13 @@ permalink: 'page/{{ pagination.pageNumber }}/'
     {% if pagination.href.next %}
         <a href="{{ pagination.href.next }}">Next Page</a>
     {% endif %}
+
+    {% for page in pagination.pages %}
+    <a href="{{ page.href }}">{{ page.pageNumber }}</a>
+{% endfor %}
+
     </nav>
-    <nav>
-        {% for page in pagination.pages %}
-        <a href="{{ '/' | url | url + (page > 1 ? 'page/' + page + '/' : '') }}" {% if page == pagination.pageNumber %}class="active"{% endif %}>{{ page }}</a>
-    {% endfor %}
-    </nav>
+   
     
 </div>
 
