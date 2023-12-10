@@ -31,11 +31,11 @@ permalink: 'page/{{ pagination.pageNumber }}/'
     </ol>
 
     {% if pagination.previous %}
-        <a href="{{ pagination.previous.href }}">Previous</a>
+        <a href="{{ pagination.previous.url }}">Previous</a>
     {% endif %}
 
     {% if pagination.next %}
-        <a href="{{ pagination.next.href }}">Next</a>
+        <a href="{{ pagination.next.url }}">Next</a>
     {% endif %}
 
   </nav>
