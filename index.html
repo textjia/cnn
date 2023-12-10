@@ -31,7 +31,7 @@ permalink: 'page/{{ pagination.pageNumber }}/'
     </ol>
 
     {% if pagination.previous %}
-        <a href="{{ pagination.previous.hrefs }}">Previous</a>
+        <a href="{{ data.pagination.href.previous }}">Previous</a>
     {% endif %}
 
     {% if pagination.next %}
