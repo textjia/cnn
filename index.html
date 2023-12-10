@@ -38,7 +38,7 @@ pagination:
     
     <nav>
         {% for page in pagination.pages %}
-        <a href="{{ '/' | url | url + (page > 1 ? 'page/' + page + '/' : '') }}" {% if page == pagination.pageNumber %}class="active"{% endif %}>{{ page }}</a>
+        <a href="{{ page.href }}">{{ page.pageNumber }}</a>
     {% endfor %}
 
     </nav>
