@@ -33,8 +33,8 @@ permalink: 'page/{{ pagination.pageNumber }}/'
     </nav>
     <nav>
         {% for page in pagination.pages %}
-            <a href="{{ page.href }}">{{ page.pageNumber }}</a>
-        {% endfor %}
+        <a href="{{ '/' | url | url + (page > 1 ? 'page/' + page + '/' : '') }}" {% if page == pagination.pageNumber %}class="active"{% endif %}>{{ page }}</a>
+    {% endfor %}
     </nav>
     
 </div>
