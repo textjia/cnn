@@ -19,23 +19,25 @@ permalink: 'page/{{ pagination.pageNumber }}/'
         {% endfor %}  
          
     </ul>
+ 
+
     </div>
+    <nav>
+        {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}">Previous Page</a>
+    {% endif %}
+
+    {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}">Next Page</a>
+    {% endif %}
+    </nav>
+    <nav>
+        {% for page in pagination.pages %}
+            <a href="{{ page.href }}">{{ page.pageNumber }}</a>
+        {% endfor %}
+    </nav>
     
 </div>
-<nav aria-labelledby="my-pagination">
-    <h2 id="my-pagination">This is my Pagination</h2>
-    <ol>
-  {%- for pageEntry in pagination.pages %}
-      <li><a href="{{ pagination.hrefs[ forloop.index0 ] }}"{% if page.url == pagination.hrefs[ forloop.index0 ] %} aria-current="page"{% endif %}>Page {{ forloop.index }}</a></li>
-  {%- endfor %}
-    </ol>
 
-    {% if pagination.previous %}
-        <a href="{{ data.pagination.href.previous }}">Previous</a>
-    {% endif %}
-
-    {% if pagination.next %}
-        <a href="{{ pagination.next.hrefs }}">Next</a>
-    {% endif %}
 
   </nav>
