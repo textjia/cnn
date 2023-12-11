@@ -24,13 +24,15 @@ pagination:
 
 <div>
     <ul>
-    <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Prev</a>{% endif %}</li>
+    {% if pagination.href.previous %}<li><a href="{{ pagination.href.previous }}">Prev</a></li>{% endif %}
     
-    {% for pageNumber in pagination.pages %}
-    <li><a href="{{ pagination.hrefs[forloop.index0] }}">{{ forloop.index }}</a></li>
-{% endfor %}
+    <!-- gold start -->
+        {% for pageNumber in pagination.pages %}
+            <li><a href="{{ pagination.hrefs[forloop.index0] }}">{{ forloop.index }}</a></li>
+        {% endfor %}
+    <!-- gold end -->
 
-    <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% endif %}</li>
+    {% if pagination.href.next %}<li><a href="{{ pagination.href.next }}">Next</a></li>{% endif %}
     </ul>
     </div>
 </div>
