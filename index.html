@@ -5,8 +5,7 @@ pagination:
   size: 5
   alias: page
   permalink: "page/{{ pagination.pageNumber | plus: 1 }}/index.html"
-  eleventyComputed:
-    paginationHref: "/page/{{ pagination.pageNumber | plus: 1 }}/"
+ 
 ---
 <div class="container">
     <div class="jumbotron">
@@ -17,31 +16,17 @@ pagination:
             <li><a href="{{ post.url }}">{{ post.data.date | date: "%m/%d/%y"}} - {{ post.data.title }}</a></li>
         {% endfor %}  
     </ul>
-</div>
-    {% if pagination.href.previous %}
+
+    <nav>
+        {% if pagination.href.previous %}
         <a href="{{ pagination.href.previous }}">Previous Page</a>
     {% endif %}
 
     {% if pagination.href.next %}
         <a href="{{ pagination.href.next }}">Next Page</a>
     {% endif %}
-    <nav>
-        {% if pagination.href %}
-            <a class="btn btn-primary" href="{{ paginationHref | url }}">Previous</a>
-        {% endif %}
-
-        {% for pageNumber in pagination.pages %}
-            {% if pagination.pageNumber == pageNumber %}
-                <span>{{ pageNumber }}</span>
-            {% else %}
-                <a class="btn btn-secondary" href="{{ pageNumber | url }}">{{ pageNumber }}</a>
-            {% endif %}
-        {% endfor %}
-
-        {% if pagination.nextHref %}
-            <a class="btn btn-primary" href="{{ pagination.nextHref | url }}">Next</a>
-        {% endif %}
     </nav>
+
 </div>
 
 
