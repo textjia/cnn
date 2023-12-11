@@ -1,11 +1,5 @@
 ---
 layout: layout.html
-pagination:
-  data: collections.posts
-  size: 5
-  alias: posts
-  
- 
 ---
 <div class="container">
     <div class="jumbotron">
@@ -17,15 +11,6 @@ pagination:
         {% endfor %}  
     </ul>
 
-    <nav>
-        {% if pagination.href.previous %}
-        <a href="{{ pagination.href.previous }}">Previous Page</a>
-    {% endif %}
-
-    {% if pagination.href.next %}
-        <a href="{{ pagination.href.next }}">Next Page</a>
-    {% endif %}
-    </nav>
 
 </div>
 
