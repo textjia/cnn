@@ -1,5 +1,7 @@
 ---
 layout: layout.html
+pagination:
+    data: <collections 
 ---
 <div class="container">
     <div class="jumbotron">
@@ -19,6 +21,14 @@ layout: layout.html
         </li>
       {% endfor %}
     </ul>
+
+    {% assign sorted_dates = site.posts | map: 'date' | sort | reverse %}
+{% assign unique_dates = sorted_dates | uniq %}
+
+{% for date in unique_dates %}
+  {% assign posts_in_month = site.posts | where_exp: 'post', "post.date | date: '%B %Y' == date | date: '%B %Y'" %}
+  <a href="{{ date | date: '/%Y/%m/' }}">{{ date | date: '%B %Y' }}</a>
+{% endfor %}
    
 </div>
 
