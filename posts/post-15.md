@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Candyland Showdown - Sweetest Race for President!
 date: 2023-12-09
 ---

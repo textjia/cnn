@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Sweet Weather Adventures for Little Candy Explorers!
 date: 2023-12-08
 ---

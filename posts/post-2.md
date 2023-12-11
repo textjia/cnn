@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: A Candy-Packed Party in Miami Beach!
 date: 2023-12-08
 ---

@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Madonna's Magical Celebration Tour in Candyland!
 date: 2023-12-10
 ---

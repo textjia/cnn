@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Candyland's Twitter Tale - The Great Candy Poll!
 date: 2023-12-10
 ---

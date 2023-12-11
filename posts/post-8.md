@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Candy Heroes Save Martin's Sweet House Adventure!
 date: 2023-12-08
 ---

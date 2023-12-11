@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Beyoncé and Taylor Swift's Sweet Friendship Story!
 date: 2023-12-08
 ---

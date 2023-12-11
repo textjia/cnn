@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Sweet Victory for Ice Candy King Ilia Malinin!
 date: 2023-12-09
 ---

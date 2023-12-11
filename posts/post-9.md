@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Stay Healthy and Sweet - Candy Land Tips! 
 date: 2023-12-08
 ---

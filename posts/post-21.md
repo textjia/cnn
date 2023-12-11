@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Candyland's Sweet Economic Adventure!
 date: 2023-12-11
 ---

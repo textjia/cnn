@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Candyland News - Sweet Sunday Playoffs!
 date: 2023-12-11
 ---

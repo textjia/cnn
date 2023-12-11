@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Candyland's Sweetest Travel Adventure!
 date: 2023-12-11
 ---

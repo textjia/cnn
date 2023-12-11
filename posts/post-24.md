@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Sweet Victory in Candyland's Big Game!
 date: 2023-12-10
 ---

@@ -25,7 +25,7 @@ pagination:
     {% endif %}
     <nav>
         {% for page in pagination.pages %}
-        <a href="{{ page.url }}">{{ page.pagination.pageNumber }}</a>
+        <a href="{{ page.href }}">{{ page.number }}</a>
     {% endfor %}
     </nav>
 </div>

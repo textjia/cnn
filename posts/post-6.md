@@ -1,5 +1,4 @@
 ---
-layout: layout.html
 title: Candyland Update - Sweet Adventures in a Faraway Place! 
 date: 2023-12-08
 ---
