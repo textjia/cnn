@@ -1,9 +1,11 @@
 ---
 layout: layout.html
+kpermalink: "/jia/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber + 1 }}/{% endif %}index.html"
 pagination: 
-   data: collections.posts
+   data: collections.post
    size: 9
    alias: posts
+   reverse: true
    
 ---
 <div class="container">
@@ -24,7 +26,9 @@ pagination:
     <ul>
     <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Prev</a>{% endif %}</li>
     
-
+    {% for pageNumber in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[forloop.index0] }}">{{ forloop.index }}</a></li>
+{% endfor %}
 
     <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% endif %}</li>
     </ul>
