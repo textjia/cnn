@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Candyland Says Goodbye to a Star
 date: 2023-12-09
 ---

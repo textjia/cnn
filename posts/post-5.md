@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Candyland News - Sweet Talks About Orioles and a Magical Baseball Adventure!
 date: 2023-12-08
 ---

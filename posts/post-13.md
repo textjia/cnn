@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Candyland Job Joy! Sweets and Smiles Everywhere!
 date: 2023-12-08
 ---

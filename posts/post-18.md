@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Candyland's Sweet Surprise - Meet CosMc's Magical Café!
 date: 2023-12-09
 ---

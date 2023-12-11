@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Sad Day Turned into a Sweet Memory
 date: 2023-12-08
 ---

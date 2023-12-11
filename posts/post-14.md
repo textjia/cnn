@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Candylicious Luck Strikes Twice in Candyland!
 date: 2023-12-08
 ---

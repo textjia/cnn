@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Candy Skies -  Flying Adventures with KinectAir!
 date: 2023-12-08
 ---

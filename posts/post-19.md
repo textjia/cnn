@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Ukraine's Brave Adventure - A Tale of Noisy Skies, Smart Heroes, and the Call for Kindness!
 date: 2023-12-09
 ---

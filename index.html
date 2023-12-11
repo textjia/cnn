@@ -4,47 +4,31 @@ pagination:
   data: collections.post
   size: 5
   alias: posts
-  permalink: 'page/{{ posts.pagination.pageNumber }}/'
+  permalink: 'page/{{ pagination.pageNumber }}/'
 ---
 <div class="container">
     <div class="jumbotron">
         <h3>Candy News Network</h3>
     <!-- Bootstrap List Group -->
     <ul class="list-group">
-
-       
-        
         {% for post in posts reversed %}
             <li><a href="{{ post.url }}">{{ post.data.date | date: "%m/%d/%y"}} - {{ post.data.title }}</a></li>
         {% endfor %}  
-         
     </ul>
- 
-
-    </div>
-    
-        {% if pagination.href.previous %}
+</div>
+    {% if pagination.href.previous %}
         <a href="{{ pagination.href.previous }}">Previous Page</a>
     {% endif %}
 
     {% if pagination.href.next %}
         <a href="{{ pagination.href.next }}">Next Page</a>
     {% endif %}
-
-    
-
-  
-
-    
     <nav>
         {% for page in pagination.pages %}
-        <a href="{{ page.href }}">{{ page.pageNumber }}</a>
+        <a href="{{ page.url }}">{{ page.pagination.pageNumber }}</a>
     {% endfor %}
-
     </nav>
-   
-    
 </div>
 
 
-  </nav>
+ 

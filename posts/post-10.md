@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Sweet Candy Kingdom News - OpenAI Adventure!
 date: 2023-12-08
 ---

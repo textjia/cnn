@@ -1,4 +1,5 @@
 ---
+layout: layout.html
 title: Candyland Election Adventure -  Putin's Sweet Announcement!
 date: 2023-12-08
 ---
