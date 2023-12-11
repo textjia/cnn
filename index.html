@@ -1,12 +1,12 @@
 ---
 layout: layout.html
 pagination:
-  data: posts
+  data: collections.posts
   size: 5
   alias: page
-permalink: "page/{{ page | plus: 1 }}/index.html"
-eleventyComputed:
-  paginationHref: "/page/{{ pagination.href | plus: 1 }}/"
+  permalink: "page/{{ pagination.pageNumber | plus: 1 }}/index.html"
+  eleventyComputed:
+    paginationHref: "/page/{{ pagination.pageNumber | plus: 1 }}/"
 ---
 <div class="container">
     <div class="jumbotron">
@@ -26,9 +26,21 @@ eleventyComputed:
         <a href="{{ pagination.href.next }}">Next Page</a>
     {% endif %}
     <nav>
+        {% if pagination.href %}
+            <a class="btn btn-primary" href="{{ paginationHref | url }}">Previous</a>
+        {% endif %}
+
+        {% for pageNumber in pagination.pages %}
+            {% if pagination.pageNumber == pageNumber %}
+                <span>{{ pageNumber }}</span>
+            {% else %}
+                <a class="btn btn-secondary" href="{{ pageNumber | url }}">{{ pageNumber }}</a>
+            {% endif %}
+        {% endfor %}
+
         {% if pagination.nextHref %}
-        <a class="btn btn-primary" href="{{ pagination.nextHref | url }}">Next</a>
-    {% endif %}
+            <a class="btn btn-primary" href="{{ pagination.nextHref | url }}">Next</a>
+        {% endif %}
     </nav>
 </div>
 
