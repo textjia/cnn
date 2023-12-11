@@ -4,6 +4,7 @@ pagination:
    data: collections.posts
    size: 9
    alias: posts
+   
 ---
 <div class="container">
     <div class="jumbotron">
@@ -23,7 +24,7 @@ pagination:
     <ul>
     <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Prev</a>{% endif %}</li>
     
-   
+
 
     <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% endif %}</li>
     </ul>
