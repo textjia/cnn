@@ -22,20 +22,32 @@ pagination:
     </div>
 
 
-<div>
-    <ul>
-    {% if pagination.href.previous %}<li><a href="{{ pagination.href.previous }}">Prev</a></li>{% endif %}
-    
-    <!-- gold start -->
-        {% for pageNumber in pagination.pages %}
-            <li><a href="{{ pagination.hrefs[forloop.index0] }}">{{ forloop.index }}</a></li>
-        {% endfor %}
-    <!-- gold end -->
 
-    {% if pagination.href.next %}<li><a href="{{ pagination.href.next }}">Next</a></li>{% endif %}
+
+<nav aria-label="...">
+    <ul class="pagination">
+        {% if pagination.href.previous %}
+      <li class="page-item disabled">
+        <a class="page-link" href="{{ pagination.href.previous }} tabindex="-1">Previous</a>
+      </li>
+      {% endif %}
+
+      {% for pageNumber in pagination.pages %}
+      <li class="page-item"><a class="page-link" href="{{ pagination.hrefs[forloop.index0] }}">{{ forloop.index }}</a></li>
+      {% endfor %}
+
+      <li class="page-item active">
+        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+      {% if pagination.href.next %}
+      <li class="page-item">
+        <a class="page-link" href="{{ pagination.href.next }}">Next</a>
+      </li>
+      {% endif %}
     </ul>
-    </div>
-</div>
+  </nav>
 
 
 
