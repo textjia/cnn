@@ -1,5 +1,5 @@
 ---
-title: Candyland News: Sweet News from Detroit!
+title: Candyland News - Sweet News from Detroit!
 date: 2023-12-10
 ---
 # Candyland News: Sweet News from Detroit! # 🍭🌟
