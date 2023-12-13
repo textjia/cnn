@@ -28,7 +28,7 @@ pagination:
         <tr>
         
         {% if pagination.href.previous %}      
-                <td><a class="page-link" href="{{ pagination.href.previous }} tabindex="-1">Previous</a></td>     
+                <td><a class="page-link" href="{{ pagination.href.previous }}" tabindex="-1">Previous</a></td>     
         {% endif %}
         
         {% for pageNumber in pagination.pages %}
