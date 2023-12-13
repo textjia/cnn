@@ -1,8 +1,8 @@
 ---
-title: Big News from China and Vietnam: Making Friends!
+title: Big News from China and Vietnam - Making Friends!
 date: 2023-12-13
 ---
-# Big News from China and Vietnam: Making Friends! # 🌏🤝
+# Big News from China and Vietnam - Making Friends! # 🌏🤝
 
 Guess what, little buddies? China and Vietnam, who were not-so-happy friends before, are now trying really hard to be super friends! Isn't that great? 🎉
 

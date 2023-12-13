@@ -1,8 +1,8 @@
 ---
-title: Shohei Ohtani's Mega Candy Contract: A Magical Tale in Candyland!
+title: Shohei Ohtani's Mega Candy Contract - A Magical Tale in Candyland!
 date: 2023-12-12
 ---
-# Shohei Ohtani's Mega Candy Contract: A Magical Tale in Candyland! # 🌈⚾️🍬
+# Shohei Ohtani's Mega Candy Contract - A Magical Tale in Candyland! # 🌈⚾️🍬
 
 Once upon a time in the land of sweet dreams, a legendary baseball player named Shohei Ohtani signed a super-duper, jaw-dropping contract with the Los Angeles Dodgers. The number was so big – $700 million – that it made everyone in Candyland go, "Wow!"
 

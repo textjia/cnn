@@ -1,8 +1,8 @@
 ---
-title: Ukraine's Candy Adventure: Zelensky's Big Day in Candyland!
+title: Ukraine's Candy Adventure - Zelensky's Big Day in Candyland!
 date: 2023-12-12
 ---
-# Ukraine's Candy Adventure: Zelensky's Big Day in Candyland! # 🍭🌟
+# Ukraine's Candy Adventure - Zelensky's Big Day in Candyland! # 🍭🌟
 
 Once upon a candy-coated time, a brave leader named President Zelensky took a magical trip to Washington! He wanted to ask his friends for help to defend his candy kingdom from some not-so-nice invaders.
 
