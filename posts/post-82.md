@@ -1,8 +1,8 @@
 ---
-title: Magical News: Rents Taking a Nap!
+title: Magical News - Rents Taking a Nap!
 date: 2023-12-13
 ---
-# Magical News: Rents Taking a Nap! # 🌟🏠
+# Magical News - Rents Taking a Nap! # 🌟🏠
 
 Hey little pals! Guess what? The rents in some places, including the fantastic land of Manhattan, are taking a little nap and coming down like a soft feather! Let's dive into this magical story! 🌈✨
 

@@ -1,8 +1,8 @@
 ---
-title: Magical News: The Fed's Dance with Interest Rates!
+title: Magical News - The Fed's Dance with Interest Rates!
 date: 2023-12-13
 ---
-# Magical News: The Fed's Dance with Interest Rates! #
+# Magical News - The Fed's Dance with Interest Rates! #
 
 Hello, little wizards! 🌟✨ Today, we have a magical story about the Federal Reserve and their dance with interest rates. Let's jump into the enchanted world of economics! 🧚‍♂️🌈
 
